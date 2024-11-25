@@ -1,13 +1,18 @@
 import React from 'react'
-import Header from '../components/Header/Header'
-import Hero from '../components/Hero/Hero'
+import Hero from '../companents/Hero/Hero'
+import Category from '../companents/Category/Category'
+import Style from '../companents/Style/Style'
 
 const Home = () => {
   return (
-    <>
-    <Header/>
-    <Hero/>
-    </>
+<>
+
+<Hero/>
+<Category/>
+<Style/>
+
+
+</>
   )
 }
 
